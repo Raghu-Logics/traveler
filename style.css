@@ -105,7 +105,7 @@ body{
   }
 
   .sidebar {
-    width: 280px;
+    width: 50%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.485);
     backdrop-filter: blur(10px);
