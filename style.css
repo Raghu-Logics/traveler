@@ -1,4 +1,4 @@
-   *{
+ *{
   box-sizing: border-box;
        margin:0;
       padding:0;
@@ -716,7 +716,7 @@ display: none;
         width:100%;
       }
       .overview3 .container{
-        display:none;
+         display:block;
       }
       .overview4 {
         display:none;
@@ -749,7 +749,22 @@ display: none;
       display:block;
        margin:10px;
       }
-      
+      .overview3 .container .title{
+        margin-left:-80px;
+      }
+       .overview3 .container .place-card{
+        margin-right:50px;
+        margin-left:-60px;
+        flex-wrap:wrap;
+         width:100px;
+         gap:0;
+      }
+      .overview3 .container .view-more{
+        margin-left:-100px;
+      }
+      .overview3 img{
+        width :500px;
+      }
       .container-over img{
         height:250px;
       }
@@ -1198,4 +1213,3 @@ display: none;
   background: #eaeaea;
   font-size: 14px;
 }
-/*end fotover*/
