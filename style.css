@@ -1,20 +1,20 @@
  *{
-  box-sizing: border-box;
+       box-sizing: border-box;
+       max-width:100%
        margin:0;
-      padding:0;
+       padding:0;
 }
     ::-webkit-scrollbar{
       display:none;
     }
     
-body{
+html, body{
  background-color: white; 
  width:100%;
  font-family: Arial, sans-serif;
- margin:auto;
+ margin:0;
  padding:0;
- 
-  
+ overflow-x: hidden;
   
 /*background-image: url('photo_6129871741573513701_y.jpg');
   background-repeat: no-repeat;
@@ -700,7 +700,7 @@ display: none;
     
     @media(max-width: 990px){
       body{
-        width:100%;
+        width:;
       }
       .overview4hide {
       display:block;
@@ -742,7 +742,8 @@ display: none;
     }
     @media(max-width: 360px){
      body{
-        width:100vw;
+        background-size: cover;
+        
         overflow-x: hidden; 
       }
       .overview4hide {
